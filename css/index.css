@@ -14,3 +14,14 @@
 .nav-img {
     top: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(63, 235, 235);
+}
+
+a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(62, 143, 143);
+}
