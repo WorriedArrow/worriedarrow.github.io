@@ -8,5 +8,5 @@
 .navbar li {
     display: inline-block;
     padding: 0 20px;
-    align-content: middle;
+    vertical-align: middle;
 }
