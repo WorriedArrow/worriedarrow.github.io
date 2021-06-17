@@ -8,7 +8,9 @@
 
 .navbar li {
     display: inline-block;
-    padding-left: 15px;
-    padding-top: 15px;
     vertical-align: middle;
+}
+
+.nav-img {
+    top: 30px;
 }
