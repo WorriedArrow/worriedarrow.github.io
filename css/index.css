@@ -7,6 +7,17 @@
 
 .navbar li {
     display: inline-block;
-    padding: 0 20px;
     vertical-align: middle;
+}
+
+.nav-favicon {
+    left: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-text-zeroedmc {
+    top: 15px;
+    left: 80px;
 }
