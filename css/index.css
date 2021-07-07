@@ -1,3 +1,7 @@
+body {
+    font-family: url("https://www.zeroedmc.com/css/font.otf");
+}
+
 .navbar {
     background-color: white;
     position: fixed;

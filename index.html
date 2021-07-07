@@ -2,114 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/favicon.png">
-    <title>Skyblock Item Generator</title>
-    <style>
-        h1 {
-            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
-        }
-
-        h4 {
-            font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
-        }
-
-        body {
-            font-family: 'Minecraft', sans-serif;
-            background-color: rgb(34, 34, 34);
-            color: whitesmoke;
-        }
-
-        .selection_label {
-            display: inline-block;
-        }
-
-        input {
-            font-family: 'Minecraft', sans-serif;
-        }
-
-        .selection_label {
-            color: whitesmoke;
-        }
-
-        #main_content_bg {
-            background-color: rgb(99, 99, 99);
-            border-radius: 10px;
-            width: fit-content;
-        }
-    </style>
+    <script src="player-count-lib.js"></script>
+    <title>Home | ZeroedMC</title>
 </head>
 <body>
-    <h1>Skyblock Item Generator</h1>
-    <h4 style="display: inline-block;">Note: You can use <div style="color: firebrick; display: inline-block;">&cMinecraft color codes</div> and \n for new lines.</h4>
-    <h4>Select some main info:</h4>
-
-    <br>
-    
-    <!--  Main content  -->
-
-    <div id="main_content_bg">
-        <br>
-
-        <!--  Item ID selection  -->
-
-        <div class="selection_label selection"><b> &nbsp;&nbsp;&nbsp;Item ID:</b> </div>
-        <input type="text" class="selection" id="item_id_selection" placeholder=" e. g. minecraft:stick"> &nbsp;&nbsp;&nbsp;
-    
-        <br><br>
-
-        <!--  Item Name selection  -->
-
-        <div class="selection_label selection"><b> &nbsp;&nbsp;&nbsp;Item Name:</b></div>
-        <input type="text" class="selection" id="item_name_selection" placeholder=" e. g. Stick"> &nbsp;&nbsp;&nbsp;
-        
-        <br><br>
-
-        <!--  Item NBT selection -->
-        
-        <div class="selection_label selection"><b> &nbsp;&nbsp;&nbsp;Item NBT:</b></div>
-        <input type="text" class="selection" id="item_nbt_selection" placeholder=" e. g. CustomModelData:1"> &nbsp;&nbsp;&nbsp;
-
-        
-        <br>
-        <br>
-    </div>
-    <br><br>
-    
-    <!--  Error message box  -->
-
-    <div id="error_msg_box" style="color:red;"></div>
-    <br>
-
-    <!--  Generate Command button  -->
-
-    <input type="button" onclick="GenerateCmd()" value="Generate Command">
-
-    <!--  JQuery  -->
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
-    <!--  JavaScript  -->
-
-    <script type="text/javascript">
-        function GenerateCmd() {
-            const itemID = $("#item_id_selection");
-            const itemIDValue = $("#item_id_selection").val();
-            const itemName = $("#item_name_selection");
-            const itemNameValue = $("#item_name_selection").val();
-            var generatedCmd = document.createElement("div");
-            var existingGeneratedCmd = $("#generated_cmd_wrapper");
-
-            if(itemNameValue == "") {
-                if(itemIDValue == "" || (itemNameValue)) {
-                    console.error("Error: Item ID is not specified.");
-                    $("#error_msg_box").html("<span>Error: Item ID is not specified.</span>")
-                } else if(itemIDValue != "") {
-                    $("#error_msg_box").html("");
-                }
-                $(generatedCmd).html("<input type=\"text\" id=\"generated_cmd\" value=\"\"");
-            }
-        }
-    </script>
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://www.zeroedmc.com/"><img src="/img/favicon.png" width="50"></a></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
 </body>
 </html>
