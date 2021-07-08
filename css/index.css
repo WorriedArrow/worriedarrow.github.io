@@ -1,16 +1,38 @@
 body {
-    font-family: url("https://www.zeroedmc.com/css/font.otf");
+    background-color: rgb(39, 39, 39);
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+footer {
+    padding-top: 90%;
 }
 
 .navbar {
-    background-color: white;
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px;
     position: fixed;
+    left: 8px;
     height: 50px;
-    top: 0;
-    width: 100%;
+    width: 98.619%;
+    top: 8px;
+    height: 68px
+}
+
+.navbar-seperator {
+    color: rgb(48, 136, 133);
+}
+
+.navbar ul {
+    margin-top: 8px;
+    padding-bottom: 99%;
+    text-align: center;
+    padding-left: 0;
 }
 
 .navbar li {
+    padding-left: 15px;
+    font-family: 'Exo 2', sans-serif;
     display: inline-block;
     vertical-align: middle;
 }
@@ -21,11 +43,11 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(63, 235, 235);
+    color: mediumturquoise;
 }
 
 a:hover {
     text-decoration: none;
     text-decoration: underline;
-    color: rgb(62, 143, 143);
+    color: steelblue;
 }

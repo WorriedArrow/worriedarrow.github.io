@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--  JavaScript library: Player Count Library (www.github.com/leonardosnt/mc-player-counter)  -->
+    <!--  Made by: Leonardo Santos (www.github.com/leonardosnt)  -->
     <script src="player-count-lib.js"></script>
+
+    <!--  CSS: index.html's CSS  -->
+    <!--  Made by: WorriedArrow  -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--  CSS: Google Fonts CSS  -->
+    <!--  Made by: Google Fonts (generated URLs)  -->
+    <link rel="stylesheet" href="./css/fonts.css">
+
     <title>Home | ZeroedMC</title>
 </head>
 <body>
+
+    <!--  Navbar  -->
     <nav class="navbar">
         <ul>
-            <li><a href="/"><img src="/img/favicon.png" width="50"></a></li>
-            <li></li>
-            <li></li>
+            <li><a href="index.html"><img src="./img/favicon.png" width="50" style="left: 10"></a></li>
+            <li><a href="index.html">ZeroedMC</a></li>
+            <li class="navbar-seperator">|</li>
+            <li><a href="javascript:void(0)" onclick="copyServerIPToClipboard();">Join <span data-playercounter-ip="play.zeroedmc.com">0</span> other players</a></li>
+            <li class="navbar-seperator">|</li>
+            <li><a href="javascript:void(0)" onclick="openStoreUnderConstructionModal();">Store (under construction)</a></li>
         </ul>
     </nav>
 
-    <!--  Custom context menu  -->
-    <script>
-        document.addEventListener('contextmenu', function(e) {
-
-            var mouseX = e.clientX;
-            var mouseY = e.clientY;
-            e.preventDefault();
-    
-        });
-    </script>
+    <footer>Hello there</footer>
 </body>
 </html>
