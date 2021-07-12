@@ -44,11 +44,26 @@
         <div>
             That's unfortunate. Our servers just aren't good enough to comprehend that URL. Try a different one, don't give up!
             <br>
+            <br>
             <a href="./index.html">Or go to the ZeroedMC homepage!</a>
+            <br><br><br><br><br>
+            <div id="error">
+                The error was:&nbsp;
+                <code id="error-code">
+                </code>
+            </div>
+            <br>
         </div>
     </main>
 
     <footer>Site designed by <b>WorriedArrow</b></footer>
+
+    <!--  JavaScript  -->
+    <script>
+        var a = document.getElementById("error-code");
+        var b = window.location.pathname;
+        a.innerHTML = "404: Couldn't find resource '<a style=\"color: whitesmoke;\" href=\"" + b + "\">" + b + "</a>'";
+    </script>
 
 </body>
 </html>

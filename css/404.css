@@ -17,3 +17,17 @@ footer {
     margin-bottom: 8px;
     padding-top: 45%;
 }
+
+#error {
+    color: red;
+}
+
+#error-code {
+    color: whitesmoke;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.24);
+}
+
+/*/ code {
+    font-family: monospace;
+} /*/
