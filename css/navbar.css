@@ -1,0 +1,38 @@
+.navbar {
+    background-color: rgb(60, 60, 60);
+    border-radius: 10px;
+    position: fixed;
+    left: 8px;
+    height: 50px;
+    width: 98.619%;
+    top: 8px;
+    height: 68px
+}
+
+.navbar-seperator {
+    color: rgb(48, 136, 133);
+}
+
+.navbar ul {
+    margin-top: 8px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.navbar li {
+    padding-left: 15px;
+    font-family: 'Exo 2', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: mediumturquoise;
+}
+
+a:hover {
+    text-decoration: none;
+    text-decoration: underline;
+    color: steelblue;
+}

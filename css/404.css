@@ -3,14 +3,17 @@ body {
     color: whitesmoke;
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
-}
-
-footer {
-    margin-left: 8px;
-    margin-bottom: 8px;
-    padding-top: 45%;
+    text-align: center;
 }
 
 .title {
-    font-family: 'Exo 2'
+    font-family: 'Exo 2';
+    padding-top: 105px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    padding-top: 45%;
 }
