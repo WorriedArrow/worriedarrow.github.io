@@ -2,15 +2,8 @@ body {
     background-color: rgb(39, 39, 39);
     color: whitesmoke;
     font-family: 'Noto Sans', sans-serif;
-    margin: 0;
-}
-
-footer {
-    margin-left: 8px;
-    margin-bottom: 8px;
-    padding-top: 45%;
 }
 
 .title {
-    font-family: 'Exo 2'
+    font-family: 'Exo 2';
 }
