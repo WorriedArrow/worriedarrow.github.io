@@ -9,23 +9,3 @@ footer {
     margin-top: 100px;
     margin-right: 8px;
 }
-
-main {
-    margin-top: 100px;
-    margin-left: 25%;
-    margin-right: 25%;
-    color: rgb(60, 60, 60);
-    border-radius: 10px;
-    background-color: whitesmoke;
-}
-
-.inner-main {
-    margin-top: 115px;
-    padding-left: 13px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-a.h::before {
-    content: url("https://crafatar.com/avatars/f84c6a790a4e45e0879bcd49ebd4c4e2?size=13");
-}
